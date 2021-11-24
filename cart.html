@@ -31,43 +31,29 @@
     <img src="frontpage.jpg" alt="background">
 </div>
          <div class="fillup">
-             <form action="#" method="post">
+            <form action="doublecheck.html" method="get">
                  <p>Full Name</p>
-                 <input type="text" name="fullname" placeholder="Full Name"
-                 style="padding: 10px; border: 2px solid rgb(40,40, 40); outline: none; margin-top: 5px;">
+                 <input type="text" name="Fullname" placeholder="Full Name" required
+                 style="padding: 10px; border: 2px solid rgb(36, 255, 7); outline: none; margin-top: 5px;">
                  <p>Email Address</p>
-                 <input type="email" name="email" placeholder="Email Address"
-                 style="padding: 10px; border: 2px solid rgb(40,40, 40); outline: none; margin-top: 5px;">
+                 <input type="email" name="Email" placeholder="Email Address" required
+                 style="padding: 10px; border: 2px solid rgb(36, 255, 7); outline: none; margin-top: 5px;">
                  <p>Contact Number</p>
-                 <input type="tel" name="contact" placeholder="Contact Number"
-                 style="padding: 10px; border: 2px solid rgb(40,40, 40); outline: none; margin-top: 5px;">
+                 <input type="tel" name="Contact" placeholder="Contact Number" required
+                 style="padding: 10px; border: 2px solid rgb(36, 255, 7); outline: none; margin-top: 5px;">
                  <p>Address</p>
-                 <input type="text" name="address" placeholder="Address"
-                 style="padding: 10px; border: 2px solid rgb(40,40, 40); outline: none; margin-top: 5px;">
-                 <p>Quantity</p>
-                 <select style="padding: 10px; border: 2px solid rgb(40,40, 40); outline: none; margin-top: 5px;">
-                      <option value="weight">0 kg</option>
-                      <option value="weight">1/4 kg</option>
-                      <option value="weight">1/2 kg </option>
-                      <option value="weight">3/4 kg</option>
-                      <option value="weight">1.0 kg</option>
-                      <option value="weight">2.0 kg</option> 
-                      <option value="weight">3.0 kg</option>     
-                      <option value="weight">4.0 kg</option> 
-                      <option value="weight">5.0 kg</option>
-                      <option value="weight">6.0 kg</option>
-                      <option value="weight">7.0 kg</option>
-                      <option value="weight">8.0 kg</option>
-                      <option value="weight">9.0 kg</option>
-                      <option value="weight">10.0 kg</option>
-                      <option value="weight">11.0 kg</option>
-                      <option value="weight">12.0 kg</option>
-                      <option value="weight">13.0 kg</option>
-                      <option value="weight">14.0 kg</option> 
-                      <option value="weight">15.0 kg</option> 
-                    </select>
+                 <input type="text" name="Address" placeholder="Address" required
+                 style="padding: 10px; border: 2px solid rgb(36, 255, 7); outline: none; margin-top: 5px;">
+                 <p>Quantity of Product</p>
+                 <input type="number" name="Quantity" min="0" max="100" placeholder="Quantity" required
+                 style="padding: 10px; border: 2px solid rgb(36, 255, 7); outline: none; margin-top: 5px;">
+
+                <div class="newbtn">
+                    <a href="product.html" class="btn">Back</a>
+                    <button type="submit">Continue</button>
+                </div>
              </form>
-             <a href="last.html" class="btn">Checkout</a>
+             
          </div>
     </div>
 </div>

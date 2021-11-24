@@ -1,0 +1,43 @@
+body{
+    font-family: sans-serif;
+    background-color: white;
+    padding: 30px 30px;
+    margin: 20px;
+    color: rgb(39, 38, 38);
+}
+h6{
+    font-size: 30px;  
+    letter-spacing: 1px;
+    font-weight: 700;
+    margin-left: 200px;
+}
+.product-cart{
+    display: flex;
+
+}
+.items{
+    width: 45vw;
+    height: 60vh;   
+}
+p{
+    margin-top: 15px;
+    padding: 12px;
+    font-size: 25px;
+}
+h2{
+    padding-left: 25px;
+    font-weight: 500;
+    font-size: 20px;
+}
+h5{
+    font-size: 25px;
+    letter-spacing: 2px;
+}
+.buy-buttom{
+    margin-top: 100px;
+    margin-left: 200px;
+    justify-content: space-between;
+}
+.price{
+    margin-left: 200px;
+}

@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body{
+    font-size: 25px;
+    margin-top: 150px;
+    margin-left: 300px;
+    background-image: url(record.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.container{
+    background-color: rgba(97, 97, 97, 0.5);
+    border: 2px solid rgb(58, 58, 58);
+    border-radius: 10px;
+    padding: 15px;
+    width: 500px;
+    height: 50vh;
+    letter-spacing: 1px;
+}
+.path{
+
+}
+.button{
+    display: flex;
+    margin-top: 50px;
+}
+.button-1{
+    margin-left: 30px;
+    margin-right: 250px;  
+    border: 2px solid black;
+    background-color: rgb(155, 255, 55);
+    border-radius: 5px;
+    width: 80px; 
+    height: 30px;
+    padding-left: 12px;
+}
+.button-1 a{
+    text-decoration: none;
+    color: black;
+}
+.button-1:hover{
+    background-color: rgb(42, 38, 255);
+    border: 2px solid greenyellow;
+    transition: .3s;
+}
+.button-1 a:hover{
+    color: white;
+    font-weight: 500;
+}
+.button-2{
+    border: 2px solid black;
+    background-color: rgb(155, 255, 55);
+    border-radius: 5px;
+    width: 80px; 
+    height: 30px;
+    padding-left: 6px;
+  
+}
+.button-2 a{
+    text-decoration:none;
+    color: black;
+}
+.button-2:hover{
+    background-color: rgb(42, 38, 255);
+    border: 2px solid greenyellow;
+    transition: .3s;
+}
+.button-2 a:hover{
+    color: white;
+    font-weight: 500;
+}
+.button-3{
+    margin-top: 30px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 15px;
+    background-color: rgba(255, 115, 21, 0.863);
+}
+.button-3 a{
+    text-decoration: none;
+    color: black;
+}
+.button-3:hover{
+    background-color: rgb(175, 81, 243);
+    border: 2px solid rgb(81, 255, 0);
+    transition: .5s;
+}
+.button-3 a:hover{
+    color: rgb(117, 12, 12);
+    transition: .3s;
+}
